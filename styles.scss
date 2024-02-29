@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contain__all--page{
+        background-color: #ffffff;
+        width: 370px;
+        padding: 1.3rem;
+        border-radius: 12px;
+        border: 1.5px solid #000000;
+        box-shadow: 6px 6px .1px #000000;
+        .image--card__box, .image--card__box .card{
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: .5rem;
+        }
+        .contain__info--card{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            .content--learning{
+                .learning{
+                    background-color: #f4d04e;
+                    padding: .3rem 1rem;
+                    font-weight: 700;
+                    border-radius: 4px;
+                }
+                .published{font-weight: 600;}
+            }
+        }
+        .content__information--tecno--used{
+            margin-bottom: 1rem;
+            .title:hover{
+                color: #f4d04e;
+                cursor: pointer;
+            }
+            .txt{
+                color: #808080;
+                margin-top: 1rem;
+                font-weight: 500;
+                line-height: 1.4rem;
+            }
+        }
+        .usuary--card{
+            display: flex;
+            align-items: center;
+            .avatar{
+                width: 35px;
+                height: 35px;
+                margin-right: 1rem;
+            }
+            .name{
+                font-weight: 700;
+
+            }
+        }
+    }
+}

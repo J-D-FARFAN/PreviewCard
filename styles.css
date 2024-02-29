@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .contain__all--page {
+  background-color: #ffffff;
+  width: 370px;
+  padding: 1.3rem;
+  border-radius: 12px;
+  border: 1.5px solid #000000;
+  box-shadow: 6px 6px 0.1px #000000;
+}
+body .contain__all--page .image--card__box, body .contain__all--page .image--card__box .card {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+body .contain__all--page .contain__info--card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+body .contain__all--page .contain__info--card .content--learning .learning {
+  background-color: #f4d04e;
+  padding: 0.3rem 1rem;
+  font-weight: 700;
+  border-radius: 4px;
+}
+body .contain__all--page .contain__info--card .content--learning .published {
+  font-weight: 600;
+}
+body .contain__all--page .content__information--tecno--used {
+  margin-bottom: 1rem;
+}
+body .contain__all--page .content__information--tecno--used .title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+body .contain__all--page .content__information--tecno--used .txt {
+  color: #808080;
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+body .contain__all--page .usuary--card {
+  display: flex;
+  align-items: center;
+}
+body .contain__all--page .usuary--card .avatar {
+  width: 35px;
+  height: 35px;
+  margin-right: 1rem;
+}
+body .contain__all--page .usuary--card .name {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=styles.css.map */
